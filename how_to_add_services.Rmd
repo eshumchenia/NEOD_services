@@ -2,7 +2,7 @@
 title: "Adding web services from the Northeast Ocean Data Portal to R"
 author: "emily shumchenia"
 date: "3/5/2018"
-output: html_document
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
@@ -22,6 +22,7 @@ library(devtools)
 install_github("yonghah/esri2sf")
 
 ```
+
 ## Finding web service URLs
 
 Next, get the URL of the web service. The [Northeast Ocean Data Portal](www.northeastoceandata.org) includes links to web services for most of the layers on the site. One of the quickest ways to find the URLs is via the layer info boxes in the Data Explorer. 
