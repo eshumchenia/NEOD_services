@@ -15,18 +15,6 @@ library(devtools)
 install_github("yonghah/esri2sf")
 ```
 
-    ## Downloading GitHub repo yonghah/esri2sf@master
-    ## from URL https://api.github.com/repos/yonghah/esri2sf/zipball/master
-
-    ## Installing esri2sf
-
-    ## '/Library/Frameworks/R.framework/Resources/bin/R' --no-site-file  \
-    ##   --no-environ --no-save --no-restore --quiet CMD INSTALL  \
-    ##   '/private/var/folders/5s/2p6nk09s51b17nc_7qp0t2v40000gn/T/RtmpP2yPlR/devtools301d2040f470/yonghah-esri2sf-23867c0'  \
-    ##   --library='/Users/emily/Library/R/3.4/library' --install-tests
-
-    ## 
-
 Finding web service URLs
 ------------------------
 

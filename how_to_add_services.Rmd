@@ -16,7 +16,7 @@ This document explains how to access data from web services on the [Northeast Oc
 
 First, in R, install the [esri2sf package](https://github.com/yonghah/esri2sf). This package works with any web service, not just the services on the Northeast Ocean Data Portal.
 
-```{r}
+```{r, eval = FALSE}
 
 library(devtools)
 install_github("yonghah/esri2sf")
