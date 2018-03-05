@@ -1,1 +1,1 @@
-# NEOD_services
+Brief explainer for how to bring data from web services into R.
