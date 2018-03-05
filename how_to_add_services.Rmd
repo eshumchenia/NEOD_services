@@ -31,7 +31,9 @@ Open the layer info box and click on (or copy) the URL to the web service.
 ![](de_screenshot.png)  
  
 
-## Plot the data
+## Import the data
+
+The [esri2sf package](https://github.com/yonghah/esri2sf) imports the data as an sf object. The attribute table is essentially replicated as a data frame. Plot the data to test that it was imported correctly.
 
 ```{r}
 
@@ -41,4 +43,3 @@ eg <- esri2sf(eg.url)
 plot(eg, max.plot = 1) ## use max.plot to limit the number of attributes plotted
 
 ```
-

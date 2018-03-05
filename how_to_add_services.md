@@ -22,8 +22,10 @@ Next, get the URL of the web service. The [Northeast Ocean Data Portal](www.nort
 
 ![](de_screenshot.png)
 
-Plot the data
--------------
+Import the data
+---------------
+
+The [esri2sf package](https://github.com/yonghah/esri2sf) imports the data as an sf object. The attribute table is essentially replicated as a data frame. Plot the data to test that it was imported correctly.
 
 ``` r
 library(esri2sf)
